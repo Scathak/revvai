@@ -1,24 +1,63 @@
-# Compiled class file
-*.class
+# Dependency directories
+node_modules/
+.pnp
+.pnp.js
 
-# Log file
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Coverage reports
+coverage/
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+vite.config.timestamp-*
+vite-plugin-*
+
+# Optional OS-specific files
 *.log
+*.pid
+*.seed
+*.pid.lock
 
-# BlueJ files
-*.ctxt
+# Output of 'npm pack'
+*.tgz
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Local npm cache
+.npm/
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Optional: lock files if using only one package manager
+# yarn.lock
+# package-lock.json
+# pnpm-lock.yaml
